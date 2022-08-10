@@ -23,7 +23,6 @@ jobs:
 
       - name: Build and push
         id: docker_build
-        id: docker/build-push-action@v2
         with:
           push: false
           tags: dinhoboard/fc2.0-ci-go:latest
